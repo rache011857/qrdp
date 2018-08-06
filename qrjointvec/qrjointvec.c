@@ -1643,7 +1643,7 @@ void adMCMCvec(int niter, // total number of iterations
 
   GetRNGstate();
   for(iter = 0; iter < niter; iter++){
-                            Rprintf("iter = %i ", iter);
+                            //Rprintf("iter = %i ", iter);
     for(i = 0; i < nresp; i++){
 		for(b = 0; b < nblocks; b++){
 			chunk_size[i][b]++;
